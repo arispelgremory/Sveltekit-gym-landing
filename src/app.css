@@ -24,3 +24,37 @@ span {
     background-image: linear-gradient(to right, grey 1px, transparent 1px), 
     linear-gradient(to bottom, grey 1px, transparent 1px);
 }
+
+button, .button {
+    border-radius: .5rem;
+    border: 1px solid transparent;
+    padding: .6rem 1.2rem;
+    font-style: 1rem;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color .2s;
+}
+
+button:hover {
+    border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+.special-btn {
+    border-color: #646cff;
+}
+
+.special-btn-dark {
+    background-color: #646cff;
+    color: #fff;
+}
+
+.special-btn:hover {
+    border-color: #00f;
+}
