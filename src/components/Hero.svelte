@@ -3,6 +3,7 @@
   import Header from "./Header.svelte";
   import Cta from "./CTA.svelte";
   import * as Icon from "lucide-svelte";
+  import Product from "./Product.svelte";
 </script>
 
 
@@ -41,5 +42,6 @@
             {/each}
             <p>500+</p>
         </div>
+        <Product />
     </div>
 </SectionWrapper>
