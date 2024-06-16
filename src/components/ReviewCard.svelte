@@ -1,4 +1,6 @@
 <script>
+    import * as Icon from "lucide-svelte";
+
     export let reviewItem;
     export let left;
     export let index;
@@ -22,11 +24,11 @@
                     : " left-0 -ml-8 -translate-x-1/2")}
         >
             <div
-                class="rounded-full bg-slate-950 aspect-square bg-slate-950 h-2"
+                class="rounded-full aspect-square bg-slate-950 h-2"
             />
         </div>
         <div class="flex items-center gap-2">
-            <i class="fa-solid fa-user" />
+            <Icon.User />
             <h3 class="text-lg sm:text-xl md:text-2xl">
                 {reviewItem.name}
             </h3>
