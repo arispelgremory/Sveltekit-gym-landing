@@ -42,6 +42,5 @@
             {/each}
             <p>500+</p>
         </div>
-        <Product />
     </div>
 </SectionWrapper>
